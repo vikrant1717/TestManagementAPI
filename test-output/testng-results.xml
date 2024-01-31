@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-29T14:37:43 IST" name="API TEST SUITE" finished-at="2024-01-29T14:38:14 IST" duration-ms="31701">
+    <groups>
+    </groups>
+    <test started-at="2024-01-29T14:37:43 IST" name="/TestManagementAPIs" finished-at="2024-01-29T14:38:14 IST" duration-ms="31701">
+      <class name="testmanagement.Projects">
+        <test-method signature="getProjectid(org.testng.ITestContext)[pri:0, instance:testmanagement.Projects@49c90a9c]" started-at="2024-01-29T14:37:43 IST" name="getProjectid" finished-at="2024-01-29T14:37:45 IST" duration-ms="2858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64279ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProjectid -->
+      </class> <!-- testmanagement.Projects -->
+      <class name="testmanagement.TestRuns">
+        <test-method signature="getTestRunList(org.testng.ITestContext)[pri:0, instance:testmanagement.TestRuns@642a7222]" started-at="2024-01-29T14:37:45 IST" name="getTestRunList" finished-at="2024-01-29T14:37:47 IST" duration-ms="1733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64279ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestRunList -->
+        <test-method signature="createTestRuns(org.testng.ITestContext)[pri:0, instance:testmanagement.TestRuns@642a7222]" started-at="2024-01-29T14:37:47 IST" name="createTestRuns" finished-at="2024-01-29T14:37:49 IST" duration-ms="1846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64279ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestRuns -->
+        <test-method signature="closeTestRuns(org.testng.ITestContext)[pri:0, instance:testmanagement.TestRuns@642a7222]" started-at="2024-01-29T14:37:49 IST" name="closeTestRuns" finished-at="2024-01-29T14:38:09 IST" duration-ms="20376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64279ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTestRuns -->
+      </class> <!-- testmanagement.TestRuns -->
+      <class name="testmanagement.TestPlan">
+        <test-method signature="createTestPlan(org.testng.ITestContext)[pri:0, instance:testmanagement.TestPlan@7d322cad]" started-at="2024-01-29T14:38:09 IST" name="createTestPlan" finished-at="2024-01-29T14:38:12 IST" duration-ms="3087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64279ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestPlan -->
+        <test-method signature="getTestRunsLinkedToTestPlan(org.testng.ITestContext)[pri:0, instance:testmanagement.TestPlan@7d322cad]" started-at="2024-01-29T14:38:12 IST" name="getTestRunsLinkedToTestPlan" finished-at="2024-01-29T14:38:14 IST" duration-ms="1745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64279ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestRunsLinkedToTestPlan -->
+      </class> <!-- testmanagement.TestPlan -->
+    </test> <!-- /TestManagementAPIs -->
+  </suite> <!-- API TEST SUITE -->
+</testng-results>

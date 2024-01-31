@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API TEST SUITE]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="/TestManagementAPIs(failed)">
+    <classes>
+      <class name="testmanagement.TestRuns">
+        <methods>
+          <include name="getTestRunList" invocation-numbers="0"/>
+          <include name="closeTestRuns" invocation-numbers="0"/>
+          <include name="createTestRuns" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testmanagement.TestRuns -->
+      <class name="testmanagement.TestPlan">
+        <methods>
+          <include name="createTestPlan" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testmanagement.TestPlan -->
+      <class name="testmanagement.Projects">
+        <methods>
+          <include name="getProjectid" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testmanagement.Projects -->
+    </classes>
+  </test> <!-- /TestManagementAPIs(failed) -->
+</suite> <!-- Failed suite [API TEST SUITE] -->

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API TEST SUITE">
+    <test verbose="2" preserve-order="true" name="/TestManagementAPIs">
+        <classes>
+            <class name="testmanagement.Projects">
+                <methods>
+                    <include name="getProjectid"/>
+                </methods>
+            </class>
+            <class name="testmanagement.TestRuns">
+                <methods>
+                    <include name="getTestRunList"/>
+                    <include name="createTestRuns"/>
+                    <include name="closeTestRuns"/>
+                </methods>
+            </class>
+            <class name="testmanagement.TestPlan">
+                <methods>
+                    <include name="createTestPlan"/>
+                    <include name="getTestRunsLinkedToTestPlan"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
