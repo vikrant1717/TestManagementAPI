@@ -25,7 +25,7 @@ public class CommonSpecs {
 //
 //        String token11= new String(Base64.getEncoder().encode((username + ":" + password).getBytes()));
 //
-//        System.out.println("converted tokken is " + token11) ;
+        System.out.println("converted tokken is " + token11) ;
 
 
         RequestSpecBuilder requestSpecBuilder = new RequestSpecBuilder();
